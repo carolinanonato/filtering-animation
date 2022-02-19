@@ -19,18 +19,13 @@ function App() {
 
   return (
 
-
-
     <div className='App'>
       <div className="popular-movies">
-        {popular.map(movie => {
-          return (
-            <Movie key={movie.id} movie={movie} />
-          )
+        {popular.map((movie) => {
+          return <Movie key={movie.id} movie={movie} />
+
         })}
       </div>
-
-
     </div>
   );
 }
