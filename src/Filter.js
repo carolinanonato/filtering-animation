@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react'
 
+
 function Filter({ setActiveGenre, activeGenre, setFiltered, popular }) {
 
     useEffect(() => {
